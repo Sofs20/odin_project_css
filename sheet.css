@@ -76,7 +76,7 @@ button{
 }
 
 img{
-    width: 100px;
+    width: 300px;
 }
 
 
@@ -101,6 +101,40 @@ h1{
     margin: 100px 200px 100px 200px;
 }
 
+.body_images{
+    width: 100px;
+}
+
+.section_3{
+    background-color: #E5E7EB;
+}
+
+.quote{
+    color: #F2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 80px;
+}
+
+.signature{
+    font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 80px;
+    
+    
+}
 
 
 
