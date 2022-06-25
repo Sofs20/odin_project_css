@@ -2,14 +2,14 @@ body{
     margin: 0px;
 }
 
-.section_1,
+.section-1,
 .footer{
     background-color: #1F2937;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-.section_1{
+.section-1{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -37,7 +37,7 @@ a{
     color: #E5E7EB;
 }
 
-.header_top{
+.header-top{
     display: flex;    
     align-items: center;
     justify-content: space-between;
@@ -62,13 +62,13 @@ button{
     width: 400px;
 }
 
-.header_bottom_left{
+.header-bottom-left{
     display: flex;
     flex-direction: column;
     align-items:flex-start;
 }
 
-.header_bottom{
+.header-bottom{
     display: flex;
     align-items: center;
     padding-bottom: 100px;
@@ -95,17 +95,17 @@ h1{
     font-size: 24px;
 }
 
-.all_info{
+.all-info{
     display: flex;
     align-items: center;
     margin: 100px 200px 100px 200px;
 }
 
-.body_images{
+.body-images{
     width: 100px;
 }
 
-.section_3{
+.section-3{
     background-color: #E5E7EB;
 }
 
@@ -125,15 +125,50 @@ h1{
 
 .signature{
     font-size: 24px;
+    font-weight: bold;
     display: flex;
     justify-content: flex-end;
     margin-left: 200px;
     margin-right: 200px;
     padding-left: 80px;
     padding-right: 80px;
-    padding-bottom: 80px;
-    
-    
+    padding-bottom: 80px; 
+}
+
+.section-4{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 50px;
+    display: flex;
+    gap: 200px;
+}
+
+.call{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.sign-up-button{
+    font-weight: bold;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    border-width: 2px;
+    padding: 10px 30px 10px 30px;  
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bottom-left{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
 }
 
 
