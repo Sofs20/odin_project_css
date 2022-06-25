@@ -1,15 +1,16 @@
 body{
-    margin: 0px;
+    margin: auto;
+    max-width: 1500px;
 }
 
-.section-1,
+.header,
 .footer{
     background-color: #1F2937;
     padding-left: 150px;
     padding-right: 150px;
 }
 
-.section-1{
+.header{
     color: #E5E7EB;
     font-size: 18px;
 }
@@ -21,7 +22,7 @@ body{
     margin-bottom: 0px;
 }
 
-.header{
+.logo{
     color: #F9FAF8;
     font-size: 24px;
 }
@@ -79,7 +80,6 @@ img{
     width: 300px;
 }
 
-
 h1{
    color: #1F2937;
    font-weight: bold; 
@@ -106,7 +106,7 @@ h1{
     width: 100px;
 }
 
-.section-3{
+.inspiring-quote{
     background-color: #E5E7EB;
 }
 
@@ -136,7 +136,7 @@ h1{
     padding-bottom: 80px; 
 }
 
-.section-4{
+.sign-up-banner{
     color: #F9FAF8;
     background-color: #3882F6;
     border-radius: 10px;
@@ -146,7 +146,7 @@ h1{
     margin-bottom: 50px;
     padding: 50px;
     display: flex;
-    gap: 200px;
+    justify-content: space-between; 
 }
 
 .call{
@@ -162,6 +162,7 @@ h1{
     border-width: 2px;
     padding: 10px 30px 10px 30px;  
     margin-top: 15px;
+    margin-right: 40px;
     display: flex;
     justify-content: flex-end;
 }
@@ -179,6 +180,8 @@ h1{
     display: flex;
     justify-content: center;
 }
+
+
 
 
 
